@@ -1,0 +1,12 @@
+# Security headers for Netlify (also understood by Cloudflare Pages).
+# See docs/DEPLOYMENT.md for why each directive is needed.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; img-src 'self' data:; font-src 'self'; connect-src 'self' https://gmail.googleapis.com https://graph.microsoft.com https://login.microsoftonline.com https://accounts.google.com/gsi/ https:; frame-src https://accounts.google.com/gsi/ https://login.microsoftonline.com; form-action 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: DENY
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

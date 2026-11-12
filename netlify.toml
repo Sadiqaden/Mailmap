@@ -1,0 +1,8 @@
+# Netlify build settings. Security headers and SPA redirects live in
+# public/_headers and public/_redirects so Cloudflare Pages can use them too.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
