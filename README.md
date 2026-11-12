@@ -1,5 +1,7 @@
 # Mailmap
 
+[Try the live demo](https://fastidious-longma-21976e.netlify.app/) — explore MailMap with sample data. No sign-in required.
+
 > A privacy-conscious newsletter manager for Gmail and Outlook, built with React and TypeScript.
 
 Mailmap finds newsletter senders in your mailbox by reading **mailing-list headers** (not message bodies), shows them as cards you can search, filter and sort, and helps you unsubscribe using **standard, safe mechanisms** — always after you confirm, and always with an honest result.
