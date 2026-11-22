@@ -1,6 +1,6 @@
 # Mailmap
 
-[Try the live demo](https://fastidious-longma-21976e.netlify.app/) — explore MailMap with sample data. No sign-in required.
+[Try the live demo](https://fastidious-longma-21976e.netlify.app/demo) — explore MailMap with sample data. No sign-in required.
 
 > A privacy-conscious newsletter manager for Gmail and Outlook, built with React and TypeScript.
 
@@ -51,21 +51,15 @@ A detected sender is **not proof** that you are still subscribed, and a sent req
 
 ## Screenshots
 
-Screenshots are not committed. To generate your own from the demo:
+### Landing page
 
-```bash
-npm run build
-npx vite preview --port 4173
-```
+![MailMap landing page](https://github.com/user-attachments/assets/eae294c4-a566-4a70-ae36-b77a16ed6cdf)
 
-Then open `http://localhost:4173/demo` and take screenshots of the landing page (`/`), the demo dashboard (`/demo`), an unsubscribe dialog, and the privacy page (`/privacy`). For consistent images you can use Playwright:
+### Demo dashboard
 
-```bash
-npx playwright screenshot --viewport-size=1280,800 http://localhost:4173/ docs/screenshots/landing.png
-npx playwright screenshot --viewport-size=1280,900 --wait-for-timeout=2000 http://localhost:4173/demo docs/screenshots/demo.png
-```
+![MailMap demo dashboard](https://github.com/user-attachments/assets/e923beb5-90bd-4ab1-b1a3-a6a2bc25bd8b)
 
-The demo uses invented senders on reserved `.example` domains, so screenshots never contain real data.
+The dashboard uses fictional senders on reserved .example domains. Demo unsubscribe actions are simulated and no account is connected.
 
 ## Features
 
