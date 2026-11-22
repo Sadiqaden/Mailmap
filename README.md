@@ -8,7 +8,7 @@ Mailmap finds newsletter senders in your mailbox by reading **mailing-list heade
 
 It runs entirely in the browser: no Mailmap server, no database, no analytics.
 
-**Status:** Outlook sign-in and newsletter scanning were verified locally with a personal Hotmail account and delegated `Mail.ReadBasic`. One-click unsubscribe depends on the sender endpoint and failed. See [provider setup](docs/PROVIDER_SETUP.md) and [Project status](#project-status).
+**Status:** Outlook sign-in and newsletter scanning were verified locally with a personal Hotmail account and delegated `Mail.ReadBasic`. One-click unsubscribe depends on the sender endpoint. See [provider setup](docs/PROVIDER_SETUP.md) and [Project status](#project-status).
 
 ---
 
